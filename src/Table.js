@@ -11,7 +11,7 @@ const Table = ({ data }) => {
         </tr>
         {data.map((user) => (
           <tr>
-            <td style={{ fontWeight: "bolder" }}>{user.first_name}</td>
+            <td>{user.first_name}</td>
             <td>{user.last_name}</td>
             <td>{user.email}</td>
           </tr>
